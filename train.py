@@ -47,7 +47,7 @@ epoch = 10
 writer = SummaryWriter("../logs_train")
 
 for i in range(epoch):
-    print("-------The {} turn of train begins-------".format(i+1))
+    print("-------{}/10 epoch of train begins-------".format(i+1))
 
     # 训练步骤开始
     cnn.train()
